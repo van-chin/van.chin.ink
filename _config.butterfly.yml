@@ -90,7 +90,7 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: https://fastly.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/top_img/index.jpg
+index_img: https://www.10wallpaper.com/wallpaper/2560x1600/1811/Tropical_ocean_island_beach_travel_aerial_view_2560x1600.jpg
 
 # If the banner of page not setting, it will show the top_img
 default_top_img: https://fastly.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/top_img/index.jpg
