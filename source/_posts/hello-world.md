@@ -31,6 +31,8 @@ More info: [Server](https://hexo.io/docs/server.html)
 
 ### 生成文件
 
+### k8s 1.26.00 安装
+
 ```bash
 $ hexo generate
 ```
