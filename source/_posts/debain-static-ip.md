@@ -2,6 +2,7 @@
 title: Debain 系统配置
 date: 2023-01-28 14:32:56
 tags:
+cover: https://fastly.jsdelivr.net/gh/jerryc127/CDN/img/butterfly-docs-01-cover.png
 ---
 
 

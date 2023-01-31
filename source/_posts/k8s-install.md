@@ -1,10 +1,16 @@
 ---
 title: Kubernetes 安装
 date: 2023-01-28 15:02:12
-tags:
+# updated: 2022-01-28 18:33:55
+tags: k8s
+cover: https://cdn.staticaly.com/gh/van-chin/pictures@main/van-chin-inkcover.png
 ---
 
+![](https://cdn.staticaly.com/gh/van-chin/pictures@main/van-chin-inkcover.png)
+
 ## 目标
+
+
 
 本文介绍一下k8s 的裸机安装（Bare Metal），操作环境为 VMware® Workstation 下的虚拟机 Debain 11 系统
 目标是在三台Debain 11 服务器上安装一个最小化的Kubernetes 集群
