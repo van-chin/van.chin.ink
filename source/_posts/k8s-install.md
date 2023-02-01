@@ -10,8 +10,6 @@ cover: https://cdn.staticaly.com/gh/van-chin/pictures@main/van-chin-inkcover.png
 
 ## 目标
 
-
-
 本文介绍一下k8s 的裸机安装（Bare Metal），操作环境为 VMware® Workstation 下的虚拟机 Debain 11 系统
 目标是在三台Debain 11 服务器上安装一个最小化的Kubernetes 集群
 
@@ -69,10 +67,7 @@ gateway 192.168.227.2
 
 #### 修改hosts 文件
 
-
-
 ```bash
-
 nano /etc/hosts
 # 三台服务器 hosts 文件中增加同样的配置
 192.168.227.180  k8s-cm-master-01
@@ -87,14 +82,9 @@ nano /etc/hosts
 swapoff -a 
 # 禁用 swap 重启后生效
 sed -i 's/.*swap.*/#&/' /etc/fstab
-
-
 ```
 
-
-
 ```bash
-
 cat <<EOF | sudo tee /etc/sysctl.d/k8s.conf
 net.bridge.bridge-nf-call-iptables=1
 net.bridge.bridge-nf-call-ip6tables=1
@@ -138,7 +128,4 @@ sudo kubeadm init \
 
 kubeadm join 192.168.227.180:6443 --token j2nn1t.t6708xt4gwhrw80s \
         --discovery-token-ca-cert-hash sha256:513e71d412614fb56c351993abaafc747fc7279d0e3903ebf0a9649bd5f26c2d
-
-
-
 ```
